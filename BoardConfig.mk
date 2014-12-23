@@ -42,8 +42,3 @@ TARGET_OTA_ASSERT_DEVICE := t03g,n7100,GT-N7100
 TARGET_RECOVERY_FSTAB := device/samsung/n7100/rootdir/fstab.smdk4x12
 RECOVERY_FSTAB_VERSION := 2
 
-#We will need this for gpsd
-TARGET_NEEDS_NON_PIE_SUPPORT := true
-
-# sensors
-BOARD_USE_LEGACY_SENSORS_FUSION := true

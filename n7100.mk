@@ -42,10 +42,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     camera.smdk4x12
 
-# Sensors
-PRODUCT_PACKAGES += \
-    sensorservice \
-    sensors.smdk4x12
 # Gps
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/gps.xml:system/etc/gps.xml
